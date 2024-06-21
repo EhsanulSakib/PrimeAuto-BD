@@ -1,7 +1,9 @@
+import Banner from "../../components/banner/Banner";
+
 const Home = () => {
     return (
-        <div>
-
+        <div className="min-h-screen">
+            <Banner></Banner>
         </div>
     );
 };
